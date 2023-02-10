@@ -1,16 +1,16 @@
 {
     "name": "@ts-type-guard/ts-type-guard",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "lib/index.js",
     "scripts": {
         "build": "tsc",
         "test": "jest --config jestconfig.json",
         "prepare": "npm run build",
-        "prepublishOnly" : "npm test && npm run lint",
-        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "prepublishOnly": "npm test && npm run lint",
+        "format": "prettier --write \"src/index.ts\" \"src/__test__/*.ts\"",
         "lint": "tslint -p tsconfig.json",
-        "version" : "npm run format && git add -A src",
-        "postversion" : "git push && git push --tags"
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
     },
     "keywords": [
         "TypeScript",
