@@ -1,0 +1,21 @@
+{
+    "name": "ts-type-guard",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Qing Ye <youkochan233@gmail.com>",
+    "license": "MIT",
+    "description": "",
+    "exports": {
+        ".": {
+            "source": "./src/index.ts",
+            "types": "./lib/index.d.ts",
+            "default": "./lib/index.js"
+        }
+    },
+    "module": "lib/index.js",
+    "types": "lib/index.d.ts"
+}
