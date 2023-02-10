@@ -6,7 +6,7 @@
         "build": "tsc",
         "test": "jest --config jestconfig.json",
         "prepare" : "npm run build",
-        "prepublishOnly" : "npm test && npm run lint"
+        "prepublishOnly" : "npm test"
     },
     "keywords": ["TypeScript", "Type Guard"],
     "author": "Qing Ye <youkochan233@gmail.com>",
