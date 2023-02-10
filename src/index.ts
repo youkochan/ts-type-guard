@@ -65,7 +65,7 @@ export const bool: TypeGuard<boolean> = (value: unknown): boolean => {
         return value;
     }
 
-    throw new Error(`Expected boolean, got ${value}`);
+    throw new Error(`Expected bool, got ${value}`);
 };
 
 export const array = <T>(inner: TypeGuard<T>): TypeGuard<T[]> => {
